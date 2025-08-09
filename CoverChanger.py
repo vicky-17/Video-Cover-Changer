@@ -10,7 +10,7 @@ from telegram.ext import (
 from telegram.error import TelegramError
 
 
-BOT_TOKEN = "8369211875:AAHa903qYf0r9XklMrkQlQN7oifcFr6brfo"   # Replace with your actual bot token
+BOT_TOKEN = ""   # Replace with your actual bot token
 DATA_FILE = "user_data.json"
 
 logging.basicConfig(level=logging.INFO, filename="bot.log")
@@ -139,3 +139,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
